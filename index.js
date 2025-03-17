@@ -6,8 +6,8 @@ const FormData = require('form-data');
 const fs = require('fs');
 const https = require('https');
 
-const BOT_TOKEN = process.env.BOT_TOKEN;
-const FREEIMAGE_API_KEY = process.env.FREEIMAGE_API_KEY;
+const BOT_TOKEN = "BOT_TOKEN" ;
+const FREEIMAGE_API_KEY = "FREEIMAGE_API_KEY" ;
 const UPLOAD_URL = 'https://freeimage.host/api/1/upload';
 
 const bot = new Telegraf(BOT_TOKEN);
